@@ -1,0 +1,134 @@
+/*header*/
+.navbar-inverse
+{
+    background: #009933;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #e1e1e1;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeligibilty;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #e1e1e1;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeligibilty;
+    font-weight: bold;
+}
+
+
+/*carousel*/
+.carousel-inner {
+    width: 100%;
+    height: 700px;
+}
+
+
+/*body*/
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*team*/
+.team-member {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+.team-member p {
+    margin-top: 0;
+}
+aside.clients img {
+    margin: 50px auto;
+    width: auto;
+    height: 100px;
+}
+ul.social-buttons {
+    margin-bottom: 0;
+}
+ul.social-buttons li a {
+    display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+    background-color: #009933;
+}
+
+
+/*feedback*/
+#feedback > div > div > div > div {
+    background-color: #fff;
+    border: none;
+    padding: none;
+
+}
+form {
+    background-color: #fff;
+}
+
+.header {
+    color: #009933;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #009933;
+}
+
+.btn-primary {
+    background-color: #009933;
+}
+
+.btn-primary:hover {
+    background-color: #ADFF2F;
+    color: #000;
+}
+
+
+/*footer*/
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #009933;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeligibilty;
+    font-weight: bold;
+}
+
+.footer > a {
+    color: #e1e1e1;
+}
+
+.footer > a:hover {
+    color: #fff;
+}
